@@ -8,9 +8,7 @@ const { MongoClient, Db } = mongodb;
 // dotenv.config({ path: __dirname+'./../.env' });1
 
 //db init
-const url = "mongodb+srv://goutham:dxEiIoGdP1SAMtlA@cluster0.ipdqc.mongodb.net/?retryWrites=true&w=majority";
-// const pass = 'dxEiIoGdP1SAMtlA'
-
+const uri = ''
 
 const connect = async () => {
     const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
